@@ -10,7 +10,7 @@ An extension for Gnome Shell that transforms the dash into an intellihide dock.
 ## Known Issues
 
 ## Future development
-
+![screenshot](https://github.com/micheleg/dash-to-dock/raw/README/screenshots/devel.jpg)
 ## Change log
 
 Version numbering follows the uploads to http://extensions.gnome.org
