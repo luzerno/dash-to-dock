@@ -1,6 +1,8 @@
 # Dash to Dock
 An extension for Gnome Shell that transforms the dash into an intellihide dock.
 
+![screenshot](https://github.com/micheleg/dash-to-dock/raw/README/screenshots/master.jpg)
+
 ## Installation
 
 ## Settings
@@ -11,7 +13,7 @@ An extension for Gnome Shell that transforms the dash into an intellihide dock.
 
 ## Change log
 
-Version numbering follow the uploads to http://extensions.gnome.org
+Version numbering follows the uploads to http://extensions.gnome.org
 
 **Version 10 (09-07-2012)**
  * Option to center the dock vertically.
