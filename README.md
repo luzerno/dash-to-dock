@@ -5,7 +5,7 @@ By default the Gnome Shell Dash is shown in the overview providing launchers for
 
 ![screenshot](https://github.com/micheleg/dash-to-dock/raw/README/screenshots/master.jpg)
 
-The dock support **intellihide** and **autohide** mode. In addition the following customization options and features has been added to the default dash:
+The dock supports **intellihide** and **autohide** mode. In addition the following customization options and features has been added to the default dash:
 
 1. Customization of the maximum icon size.
 2. Customizaton of the vertical position and alignment.
@@ -14,7 +14,7 @@ The dock support **intellihide** and **autohide** mode. In addition the followin
 
 Many options can be tweaked and tuned.
 
-The extension support **multi-monitor** configurations (see section below), *rtl-languages*, **accessibility** via Ctrl-Alt-Tab shortcut and is **theme-friendly**.
+The extension supports **multi-monitor** configurations (see section below), *rtl-languages*, **accessibility** via Ctrl-Alt-Tab shortcut and is **theme-friendly**.
 
 ## Installation
 ### Gnome Shell 3.4
@@ -31,6 +31,7 @@ The extension can be installed directly from source. Use the master branch for G
 make install
 </pre>
 to install the extension in your home directory. 
+
 As an alternative the zip archive can be generated with 
 <pre>
 make
@@ -44,6 +45,12 @@ The extension can be extensively configured by means of *gnome-shell-extension-p
 <pre>
 gnome-shell-extension-prefs dash-to-dock@micxgx.gmail.com
 </pre>
+
+### Gnome Shell 3.2
+In Gnome Shell 3.2 the extension source code has to be modified in order to customize the extension settings. Settings are both in <code>intellihide.js</code> and in<code>dockedDash.js</code> inside the installation directory <code>/home/user/.local/share/gnome-shell/extensions/</code>. At the beginning of these files there is settings section with uppercase variables that can be easily set as preferred. They are mostly true/false variables and there are brief descriptions of the effect of each setting. Shell reload is required <code>Alt+F2 r Enter</code>.
+
+#### Multi-monitor configuration
+The extension support multi-monitor configurations. By default the dock is shown on the primary monitor that is the monitor where the overview is shown. The monitor where the extension is shown can be configured. If that monitor does not exist the dock keep being shown on the primary one. Moreover the dock position is automaticaly updated whenever a monitor is attached or removed so that you can set the dock to be shown on the external monitor and have the dock reapper on the laptop monitor when you remove the external one.
 
 ## Known Issues
 
