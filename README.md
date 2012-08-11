@@ -25,7 +25,7 @@ The version of extension uploaded to the extension site is outdated. An updated 
 
 The extension can be installed by means of *gnome-tweak-tool* or direcly extractig the zip archive. Create a directory named <code>dashtodock@micxgx.gmail.com</code> inside <code>/home/user/.local/share/gnome-shell/extensions/</code> and extract the archive content there. Shell reload can be required <code>Alt+F2 r Enter</code>. The extension can be enabled with *gnome-tweak-tool* or with *dconf* by adding 'dashtodock@micxgx.gmail.com' to the <code>/org/gnome/shell/enabled-extensions</code> key.
 
-### Upstream version
+### Install from source
 The extension can be installed directly from source. Use the master branch for Gnome Shell 3.4 or the gnome-3.2 branch for Gnome Shell 3.2. A simple Makefile is included. Run 
 <pre>make
 make install
@@ -36,8 +36,14 @@ As an alternative the zip archive can be generated with
 make
 make zip-file
 </pre>
+Then follow the above instructions.
 
 ## Settings
+### Gnome Shell 3.4 and above
+The extension can be extensively configured by means of *gnome-shell-extension-prefs*. Click on the green icon on the extension site near the enable button or run <code>gnome-shell-extension-prefs</code> in a console. To open directly the Dash to Dock settings run 
+<pre>
+gnome-shell-extension-prefs dash-to-dock@micxgx.gmail.com
+</pre>
 
 ## Known Issues
 
