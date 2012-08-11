@@ -12,7 +12,9 @@ The dock support **intellihide** and **autohide** mode. In addition the followin
 3. Option to show only favourites or running applications.
 4. Switch workspace by scrolling over the dock
 
-The extension support **multimonitor** configurations (see section below) and rtl-languages. Many options can be tweaked by means of the extension preferences tool; see the settings section below.
+Many options can be tweaked by means of the extension preferences tool; see the settings section below.
+
+The extension support **multimonitor** configurations (see section below), *rtl-languages*, **accessibility** via Ctrl-Alt-Tab shortcut and is **theme friendly**.
 
 ## Installation
 
