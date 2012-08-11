@@ -9,11 +9,14 @@ An extension for Gnome Shell that transforms the dash into an intellihide dock.
 
 ## Known Issues
 
-## Future development
-![screenshot](https://github.com/micheleg/dash-to-dock/raw/README/screenshots/devel.jpg)
 ## Change log
 
 Version numbering follows the uploads to http://extensions.gnome.org
+
+**Version 11 (22-07-2012)**
+ * Allow to choose the monitor where the dock is shown.
+ * Enable dash accessibility via ctrlAltTab.
+ * Directly customize the dash background opacity.
 
 **Version 10 (09-07-2012)**
  * Option to center the dock vertically.
