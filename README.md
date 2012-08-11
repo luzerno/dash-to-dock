@@ -10,13 +10,18 @@ The dock support **intellihide** and **autohide** mode. In addition the followin
 1. Customization of the maximum icon size.
 2. Customizaton of the vertical position and alignment.
 3. Option to show only favourites or running applications.
-4. Switch workspace by scrolling over the dock
+4. Switch workspace by scrolling over the dock.
 
-Many options can be tweaked by means of the extension preferences tool; see the settings section below.
+Many options can be tweaked and tuned.
 
-The extension support **multimonitor** configurations (see section below), *rtl-languages*, **accessibility** via Ctrl-Alt-Tab shortcut and is **theme friendly**.
+The extension support **multi-monitor** configurations (see section below), *rtl-languages*, **accessibility** via Ctrl-Alt-Tab shortcut and is **theme-friendly**.
 
 ## Installation
+### Gnome Shell 3.4
+The easiest way to install and keep the extension updated is through the official Gnome shell extension site https://extensions.gnome.org/extension/307/dash-to-dock/. The installation process is straightfoward. The extension can then be enabled and disabled through the site or with *gnome-tweak-tool*.
+
+### Gnome Shell 3.2
+The version of extension uploaded to the extension site is outdated. An updated version with almost if not all the feautures of the master version can be downloaded from https://github.com/micheleg/dash-to-dock/downloads. The extension can be installed by means of *gnome-tweak-tool* or direcly extractig the zip archiv. Create a directory named <code>dashtodock@micxgx.gmail.com</code> inside <code>/home/user/.local/share/gnome-shell/extensions/</code> and extract the archive content there.A  Shell reload can be required
 
 ## Settings
 
