@@ -1,6 +1,11 @@
 # Dash to Dock
 An extension for Gnome Shell that transforms the dash into an intellihide dock.
 
+By default the Gnome Shell Dash is shown in the overview providing launchers for favourites and running aplications. This extension do move the dash out of the overview making it visible for easier launch of applications and faster switch between them without leaving the workspace view.
+
+The dock support intellihide and autohide mode. In addition the following customization options and features has been added to the deault dash:
+1. 
+
 ![screenshot](https://github.com/micheleg/dash-to-dock/raw/README/screenshots/master.jpg)
 
 ## Installation
