@@ -12,9 +12,7 @@ The dock supports **intellihide** and **autohide** mode. In addition the followi
 3. Option to show only favourites or running applications.
 4. Switch workspace by scrolling over the dock.
 
-Many options can be tweaked and tuned.
-
-The extension supports **multi-monitor** configurations (see section below), *rtl-languages*, **accessibility** via Ctrl-Alt-Tab shortcut and is **theme-friendly**.
+Many options can be tweaked and tuned. The extension supports **multi-monitor** configurations (see section below), **rtl languages**, **accessibility** via Ctrl-Alt-Tab shortcut and is **theme-friendly**.
 
 ## Installation
 ### Gnome Shell 3.4
@@ -30,7 +28,7 @@ The extension can be installed directly from source. Use the master branch for G
 <pre>make
 make install
 </pre>
-to install the extension in your home directory. 
+to install the extension in your home directory. A Shell reload is required <code>Alt+F2 r Enter</code>
 
 As an alternative the zip archive can be generated with 
 <pre>
@@ -41,16 +39,19 @@ Then follow the above instructions.
 
 ## Settings
 ### Gnome Shell 3.4 and above
-The extension can be extensively configured by means of *gnome-shell-extension-prefs*. Click on the green icon on the extension site near the enable button or run <code>gnome-shell-extension-prefs</code> in a console. To open directly the Dash to Dock settings run 
+The extension can be extensively configured by means of *gnome-shell-extension-prefs*. clicking the options button on the
+extension page clicking on the green option button on the extension site next tp the enable/disable button or running <code>gnome-shell-extension-prefs</code> in a console. To open directly the Dash to Dock settings run 
 <pre>
 gnome-shell-extension-prefs dash-to-dock@micxgx.gmail.com
 </pre>
 
 ### Gnome Shell 3.2
-In Gnome Shell 3.2 the extension source code has to be modified in order to customize the extension settings. Settings are both in <code>intellihide.js</code> and in<code>dockedDash.js</code> inside the installation directory <code>/home/user/.local/share/gnome-shell/extensions/</code>. At the beginning of these files there is settings section with uppercase variables that can be easily set as preferred. They are mostly true/false variables and there are brief descriptions of the effect of each setting. Shell reload is required <code>Alt+F2 r Enter</code>.
+In Gnome Shell 3.2 the extension configuration although not difficult requires to modify the source code. Settings are both in <code>intellihide.js</code> and in<code>dockedDash.js</code> inside the installation directory <code>/home/user/.local/share/gnome-shell/extensions/</code>. At the top of these files there is a settings section with uppercase variables that can be easily set as preferred. They are mostly true/false variables and there are brief descriptions of the effect of each setting. Shell reload is required <code>Alt+F2 r Enter</code>.
 
 #### Multi-monitor configuration
 The extension support multi-monitor configurations. By default the dock is shown on the primary monitor that is the monitor where the overview is shown. The monitor where the extension is shown can be configured. If that monitor does not exist the dock keep being shown on the primary one. Moreover the dock position is automaticaly updated whenever a monitor is attached or removed so that you can set the dock to be shown on the external monitor and have the dock reapper on the laptop monitor when you remove the external one.
+
+# Theming
 
 ## Known Issues
 
