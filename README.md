@@ -5,7 +5,7 @@ By default the Gnome Shell Dash is shown in the overview providing launchers for
 
 ![screenshot](https://github.com/micheleg/dash-to-dock/raw/README/screenshots/master.jpg)
 
-The dock supports **intellihide** and **autohide** mode. In addition the following customization options and features has been added to the default dash:
+The dock supports **intellihide** and **autohide** mode. In addition the following customization options and features have been added to the default dash:
 
 1. Customization of the maximum icon size.
 2. Customizaton of the vertical position and alignment.
