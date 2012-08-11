@@ -1,7 +1,7 @@
-# Dash to Dock Gnome Shell Extension
-An extension for Gnome Shell that transforms the dash into an intellihide dock.
+# Dash to Dock
+### A Gnome Shell extension that transforms the dash into an intellihide dock.
 
-By default the Gnome Shell Dash is shown in the overview providing launchers for favourites and running aplications. This extension do move the dash out of the overview making it visible for easier launch of applications and faster switch between them without leaving the workspace view.
+By default the Gnome Shell Dash is shown in the overview providing launchers for favourites and running aplications. This extension moves the dash out of the overview making it visible for an easier launch of applications and a faster switch between windows without leaving the desktop view.
 
 ![screenshot](https://github.com/micheleg/dash-to-dock/raw/README/screenshots/master.jpg)
 
@@ -51,7 +51,7 @@ In Gnome Shell 3.2 the extension configuration although not difficult requires t
 #### Multi-monitor configuration
 The extension support multi-monitor configurations. By default the dock is shown on the primary monitor that is the monitor where the overview is shown. The monitor where the extension is shown can be configured. If that monitor does not exist the dock keep being shown on the primary one. Moreover the dock position is automaticaly updated whenever a monitor is attached or removed so that you can set the dock to be shown on the external monitor and have the dock reapper on the laptop monitor when you remove the external one.
 
-# Theming
+## Theming
 
 ## Known Issues
 
