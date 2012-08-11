@@ -55,6 +55,8 @@ The extension support multi-monitor configurations. By default the dock is shown
 
 ## Known Issues
 
+## How to report a bug
+
 ## Change log
 
 Version numbering follows the uploads to http://extensions.gnome.org
