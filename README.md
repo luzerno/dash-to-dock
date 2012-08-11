@@ -21,7 +21,21 @@ The extension support **multi-monitor** configurations (see section below), *rtl
 The easiest way to install and keep the extension updated is through the official Gnome shell extension site https://extensions.gnome.org/extension/307/dash-to-dock/. The installation process is straightfoward. The extension can then be enabled and disabled through the site or with *gnome-tweak-tool*.
 
 ### Gnome Shell 3.2
-The version of extension uploaded to the extension site is outdated. An updated version with almost if not all the feautures of the master version can be downloaded from https://github.com/micheleg/dash-to-dock/downloads. The extension can be installed by means of *gnome-tweak-tool* or direcly extractig the zip archiv. Create a directory named <code>dashtodock@micxgx.gmail.com</code> inside <code>/home/user/.local/share/gnome-shell/extensions/</code> and extract the archive content there.A  Shell reload can be required
+The version of extension uploaded to the extension site is outdated. An updated version with almost if not all the feautures of the master version can be downloaded from https://github.com/micheleg/dash-to-dock/downloads.
+
+The extension can be installed by means of *gnome-tweak-tool* or direcly extractig the zip archive. Create a directory named <code>dashtodock@micxgx.gmail.com</code> inside <code>/home/user/.local/share/gnome-shell/extensions/</code> and extract the archive content there. Shell reload can be required <code>Alt+F2 r Enter</code>. The extension can be enabled with *gnome-tweak-tool* or with *dconf* by adding 'dashtodock@micxgx.gmail.com' to the <code>/org/gnome/shell/enabled-extensions</code> key.
+
+### Upstream version
+The extension can be installed directly from source. Use the master branch for Gnome Shell 3.4 or the gnome-3.2 branch for Gnome Shell 3.2. A simple Makefile is included. Run 
+<pre>make
+make install
+</pre>
+to install the extension in your home directory. 
+As an alternative the zip archive can be generated with 
+<pre>
+make
+make zip-file
+</pre>
 
 ## Settings
 
